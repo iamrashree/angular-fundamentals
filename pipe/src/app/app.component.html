@@ -15,3 +15,19 @@
 
 <label>Reusable - like component</label><br>
 <like [likesCount]="tweet.likedCount" [isActive]="tweet.isLiked"></like>
+
+<br><br>
+
+<label>Zippy - zippy component</label><br>
+<zippy title="Shipping Details">
+    Shipping Details Content
+</zippy>
+<zippy title="Billing Details">
+    Billing Details Content
+</zippy>
+
+<br><br>
+
+<label>Custom directives</label><br>
+<!-- <input type="text" appInputFormat [format]="'uppercase'"/> -->
+<input type="text" [appInputFormat]="'uppercase'"/>
