@@ -8,4 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent {
 
   title = '';
+
+  tweet = {
+    body: '...',
+    likedCount: 10,
+    isLiked: true
+  }
 }
