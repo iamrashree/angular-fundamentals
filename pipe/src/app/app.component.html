@@ -1,22 +1,22 @@
-<label>IsFavorite</label><br>
+<!-- <label>IsFavorite</label><br>
 <favorite></favorite>
 
-<br><br>
+<br><hr>
 
 <label>Title case and Summary - custom pipe</label><br>
 <title-case></title-case>
 
-<br><br>
+<br><hr>
 
 <label>Summary - custom pipe</label><br>
 <courses></courses>
 
-<br><br>
+<br><hr>
 
 <label>Reusable - like component</label><br>
 <like [likesCount]="tweet.likedCount" [isActive]="tweet.isLiked"></like>
 
-<br><br>
+<br><hr>
 
 <label>Zippy - zippy component</label><br>
 <zippy title="Shipping Details">
@@ -26,8 +26,34 @@
     Billing Details Content
 </zippy>
 
-<br><br>
+<br><hr> -->
 
 <label>Custom directives</label><br>
 <!-- <input type="text" appInputFormat [format]="'uppercase'"/> -->
 <input type="text" [appInputFormat]="'uppercase'"/>
+
+<br><hr>
+
+<label>Template-Driven Form</label><br>
+<new-course-form></new-course-form>
+
+<br><hr>
+
+<label>Reactive Form </label><br>
+<signup-form></signup-form>
+
+<br><hr>
+
+<label>Reactive Form - Form Array </label><br>
+<new-course-form-array></new-course-form-array>
+
+
+<br><hr>
+
+<label>Reactive Form - Form Builder </label><br>
+<form-builder></form-builder>
+
+<br><hr>
+
+<label>Reactive Form - Change Password</label><br>
+<change-password></change-password>
