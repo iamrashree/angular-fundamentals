@@ -1,0 +1,91 @@
+<div>
+    <div class="col-md-4">
+        <label>IsFavorite</label><br>
+        <favorite></favorite>
+    </div>
+    <div class="col-md-4">
+        <label>Title case and Summary - custom pipe</label><br>
+        <title-case></title-case>
+    </div>
+    <div class="col-md-4">
+        <label>Reusable - like component</label><br>
+        <like [likesCount]="tweet.likedCount" [isActive]="tweet.isLiked"></like>
+    </div>
+</div>
+
+<br><br><br><br>
+<hr>
+
+<div>
+    <div class="col-md-4">
+        <label>Zippy - zippy component</label><br>
+        <zippy title="Shipping Details">
+            Shipping Details Content
+        </zippy>
+        <zippy title="Billing Details">
+            Billing Details Content
+        </zippy>
+    </div>
+    <div class="col-md-4">
+        <label>Custom directives</label><br>
+        <input type="text" [appInputFormat]="'uppercase'" />
+    </div>
+    <div class="col-md-4">
+        <label>Reactive Form - Form Array </label><br>
+        <new-course-form-array></new-course-form-array>
+
+    </div>
+</div>
+
+
+<br><br><br><br><br><br><br><br>
+<hr>
+
+<div>
+    <div class="col-md-4">
+        <label>Reactive Form </label><br>
+        <signup-form></signup-form>
+    </div>
+    <div class="col-md-4">
+        <label>Template-Driven Form</label><br>
+        <new-course-form></new-course-form>
+    </div>
+    <div class="col-md-4">
+        <label>Reactive Form - Form Builder </label><br>
+        <form-builder></form-builder>
+    </div>
+</div>
+
+
+<br><br><br><br>
+<hr>
+
+
+
+<br><br><br><br><br><br><br>
+<hr>
+<div>
+    <div class="col-md-4">
+        <label>Reactive Form - Change Password</label><br>
+        <change-password></change-password>
+    </div>
+    <div class="col-md-4">
+        <label>Http Service - Reusable services and Global Error handling</label><br>
+        <posts></posts>
+    </div>
+    <div class="col-md-4">
+        <label>Github Followers</label><br>
+        <github-followers></github-followers>
+    </div>
+</div>
+
+<br><br><br><br>
+<hr>
+
+<!-- <div>
+    <div class="col-md-4">
+        <navbar></navbar>
+    </div>
+</div> -->
+
+<!-- <router-outlet></router-outlet> -->
