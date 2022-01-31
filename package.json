@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:gh": "ng build --prod --base-href='https://rajashree97.github.io/angular-fundamentals' && ngh"
+    "deploy:gh": "ng build --configuration production --base-href='https://rajashree97.github.io/angular-fundamentals' && ngh",
+    "deploy:firebase": "ng build --configuration production && firebase deploy"
   },
   "private": true,
   "dependencies": {
