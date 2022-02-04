@@ -29,6 +29,7 @@ import { HomeComponent } from './routing/home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { GithubProfileComponent } from './github-profile/github-profile.component';
 import { ArchiveComponent } from './routing/archive/archive.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { ArchiveComponent } from './routing/archive/archive.component';
     HomeComponent,
     GithubProfileComponent,
     NotfoundComponent,
-    ArchiveComponent
+    ArchiveComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
